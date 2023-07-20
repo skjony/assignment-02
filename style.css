@@ -704,7 +704,7 @@ footer .footer-end p {
     width: 40px;
   }
   .nav-logo-title a {
-    font-size: 20px;
+    font-size: 30px;
   }
   /*Main section */
   /*Banner -1*/
@@ -894,8 +894,8 @@ footer .footer-end p {
     display: inline-block;
     margin: 10px 0;
 }
-.footer .footer-terms-condition {
+.footer .footer-terms-condition a {
   display: inline-block;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 }
