@@ -73,7 +73,7 @@ nav .subscribe-div .subscribe-div-con {
   align-items: center;
 }
 
-.subscribe-div-con > * {
+.subscribe-div-con>* {
   padding: 0 10px;
 }
 
@@ -677,6 +677,7 @@ footer .footer-end p {
     padding: 0 10px;
     width: 100%;
   }
+
   header nav {
     flex-direction: column;
     padding-top: 30px;
@@ -684,6 +685,7 @@ footer .footer-end p {
     justify-content: center;
     align-items: center;
   }
+
   header .nav-ul {
     display: flex;
     flex-direction: column;
@@ -692,46 +694,62 @@ footer .footer-end p {
     text-align: center;
     padding-top: 40px;
   }
+
   header .nav-ul li {
     padding: 10px;
+    padding-bottom: 20px;
   }
+
   header .nav-ul .subscribe-div {
     margin-top: 20px;
     margin: 0;
     padding: 5px;
   }
+
   nav img {
     width: 40px;
   }
+
+  nav .subscribe-div .subscribe-div-con a img {
+    width: 20px;
+  }
+
   .nav-logo-title a {
     font-size: 30px;
   }
+
   /*Main section */
   /*Banner -1*/
   main .banner {
     background: white;
   }
+
   .banner-bg {
     width: 100vw;
     right: -100px;
   }
+
   .banner-content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .banner-content-li button {
     font-size: 13px;
     padding: 10px 20px;
   }
+
   .banner-content-img {
     align-items: center;
     width: 100%;
   }
+
   /*banner-2*/
   .banner-2 {
     flex-direction: column;
   }
+
   .banner-2 .banner-2-img {
     width: 100%;
   }
@@ -753,89 +771,111 @@ footer .footer-end p {
     font-size: 14px;
     padding: 10px 20px;
   }
+
   /*vedio section*/
   .video-section .video-cards {
     flex-direction: column;
   }
+
   .video-text h1 {
     font-size: 25px;
   }
+
   .video-text p {
     font-size: 12px;
   }
+
   .video-cards .video-card p {
     padding-top: 10px;
     padding-bottom: 15px;
   }
+
   .video-cards .video-card {
     width: 100%;
   }
+
   .video-cards .video-card p {
     justify-content: center;
     text-align: center;
   }
+
   /*Banner-3 section*/
   .banner-3 {
     flex-direction: column;
     margin-top: 50px;
     margin-bottom: 100px;
   }
+
   .banner-3 div h1 {
     font-size: 20px;
   }
+
   .banner-3 div p {
     width: 100%;
     font-size: 12px;
   }
+
   .banner-3 div img:first-child {
     width: 100%;
   }
+
   .banner-3 div img:last-child {
     position: absolute;
 
     width: 100px;
   }
+
   /*Banner-4 section*/
   .banner-4 {
     flex-direction: column;
     margin-top: 50px;
     margin-bottom: 100px;
   }
+
   .banner-4 div p {
     width: 100%;
     font-size: 12px;
   }
+
   .banner-4 div img:first-child {
     width: 100%;
   }
+
   .banner-4 div img:last-child {
     position: absolute;
     width: 100px;
   }
+
   .banner-4-text {
     padding-top: 50px;
   }
+
   .banner-4 div h1 {
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
     width: 200px;
   }
+
   /*Career section*/
   .career {
     flex-direction: column;
   }
+
   .career-part-text {
     width: 100%;
     align-items: center;
   }
+
   .career-part-img {
     width: 100%;
   }
+
   /* Sponsor section */
   .sponser-section {
     padding: 50px 0;
   }
+
   .sponsers {
     display: grid;
     grid-gap: 5px;
@@ -883,19 +923,23 @@ footer .footer-end p {
     width: 300px;
     margin: 0 auto;
   }
+
   footer .footer-sponser-img a {
     display: inline-block;
     margin: 17px 10px;
   }
+
   footer .footer-sponser-img a img {
     width: 70px;
   }
+
   footer .footer-games-link a {
     display: inline-block;
     margin: 10px 0;
-}
-.footer .footer-terms-condition a {
-  display: inline-block;
+  }
+
+  .footer .footer-terms-condition a {
+    display: inline-block;
     margin: 20px 0;
-}
+  }
 }
